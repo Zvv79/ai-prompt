@@ -10,9 +10,14 @@
 
 ```
 ai-prompt/
-├── README.md          # 项目说明文档
-├── .git/              # Git 版本控制目录
-└── .idea/             # IntelliJ IDEA 项目配置
+├── README.md                    # 项目说明文档
+├── .git/                        # Git 版本控制目录
+├── .idea/                       # IntelliJ IDEA 项目配置
+├── technical-complexity/        # 按技术复杂度分类的提示词
+├── application-scenarios/       # 按应用场景分类的提示词
+├── model-adaptation/            # 按模型适配分类的提示词
+├── functional-usage/            # 按功能用途分类的提示词
+└── interaction-mode/            # 按交互模式分类的提示词
 ```
 
 ## 功能特性
@@ -39,8 +44,8 @@ git clone https://github.com/Zvv79/ai-prompt.git
 
 ### 开发计划
 
-- [ ] 建立提示词分类体系
-- [ ] 添加常用提示词模板
+- [x] 建立提示词分类体系
+- [x] 添加常用提示词模板
 - [ ] 开发提示词优化工具
 - [ ] 建立效果评估体系
 
